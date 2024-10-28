@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,4 +19,44 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* css classes for sign in and sign up boxes rendered - doesnt affect the clerk side of things only what the user sees on your page */
+.cl-cardBox,
+.cl-signIn-start,
+.cl-signUp-start {
+  background-color: #a94eff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#new-post {
+  justify-content: space-around;
+}
+
+.post-comment {
+  width: 50vw;
+  background-color: #ededed;
+  /* height: 350px; */
+}
+
+input,
+textarea {
+  color: #0a0a0a;
+  padding: 5px;
+}
+
+.nav {
+  background-color: #a94eff;
+  margin: 5vw;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+h1 {
+  margin: 5vw;
 }
