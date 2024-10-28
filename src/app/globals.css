@@ -60,3 +60,7 @@ textarea {
 h1 {
   margin: 5vw;
 }
+
+input {
+  background-color: #ededed;
+}
