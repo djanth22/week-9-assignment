@@ -2,9 +2,17 @@
 
 # repo
 
+https://github.com/djanth22/week-9-assignment
+
 # deployment
 
-# planning
+https://week-9-assignment-brown.vercel.app/
+
+# planning and schema
+
+![wireframe](public/wireframe.png)
+
+![schema](public/schema.png)
 
 ## reflection
 
@@ -33,3 +41,12 @@ Optional
 - What went really well and what could have gone better?
 
 # my reflection
+
+what requirements I achieved
+
+- my user can sign in or sign up using clerk
+- i managed to get an accordian element from daisy ui working (radix ui wasnt working)
+- users have a very basic profile where then can add a bio, users, posts, likes anf followers are all respectively stored in their own tables in the database
+- users posts are associated with their clerk id
+
+I didnt manage to get my error page working and had run out of time to mess with it and so I removed it, but this was one of the requirements I haven't been able to do. I lost a lot of time on this assignment due to unforseen circumstances but i had managed to get likes, dislikes, delete buttons and even a simple follow system more or less working which i'm happy with.
